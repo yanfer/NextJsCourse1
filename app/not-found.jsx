@@ -9,3 +9,5 @@ export default function NotFound() {
     </section>
   );
 }
+
+/* tiene que ser especificamente not-found en la carperta raiz */
