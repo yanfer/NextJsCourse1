@@ -11,7 +11,7 @@ async function loadPosts() {
 
 //R S C = React Sever Component
 //aqui se renderiza y para ponerle funciones hay que hacer un componente y traerlo de
-async function PostPages() {
+async function Posts() {
   const posts = await loadPosts();
   console.log(posts);
   return (
@@ -23,4 +23,4 @@ async function PostPages() {
   );
 }
 
-export default PostPages;
+export default Posts;
